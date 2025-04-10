@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header id="header">
+    <h1 class="site-title">Akashdeep Srivastava</h1>
+    <nav class="nav-links">
+      <a href="#about" class="nav-item">About</a>
+      <a href="#projects" class="nav-item">Projects</a>
+      <a href="#contact" class="nav-item">Contact</a>
+    </nav>
+  </header>
+
+  <section id="practice">
+    <h2 class="section-title" id="about-title">Practice Section</h2>
+    <p class="about-text">This section on this page is dedicated to JavaScript practice.</p>
+    <input type="text" id="enterText" class="form-input" placeholder="Enter your text here!" required />
+    <button id="clickHere-btn">Click Here!</button>
+  </section>
+
+  <section id="about">
+    <h2 class="section-title" id="about-title">About Me</h2>
+    <p class="about-text">I'm a front-end web developer passionate about creating beautiful and functional web experiences.</p>
+  </section>
+
+  <section id="projects">
+    <h2 class="section-title" id="projects-title">Projects</h2>
+    <div class="project-card" id="project1">
+      <h3 class="project-title">Weather App</h3>
+      <p class="project-desc">A simple weather forecast app using HTML, CSS, and JavaScript.</p>
+    </div>
+    <div class="project-card" id="project2">
+      <h3 class="project-title">To-Do List</h3>
+      <p class="project-desc">A task management app with local storage.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title" id="contact-title">Contact Me</h2>
+    <form class="contact-form" id="contact-form">
+      <input type="text" id="name" class="form-input" placeholder="Your Name" required />
+      <input type="email" id="email" class="form-input" placeholder="Your Email" required />
+      <textarea id="message" class="form-input" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" id="submit-btn">Send Message</button>
+    </form>
+  </section>
+
+  <script src="domManipulation.js"></script>
+  <script src="events.js"></script>
+
+  <footer id="footer">
+    <p class="footer-text">© 2025 Akashdeep Srivastava. All rights reserved.</p>
+  </footer>
+
+  
+
+</body>
+</html>

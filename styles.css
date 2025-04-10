@@ -1,0 +1,116 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #e1bee7);
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  #header {
+    background: linear-gradient(90deg, #7b1fa2, #512da8);
+    color: white;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .site-title {
+    font-size: 32px;
+    margin: 0;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #ffd54f;
+  }
+  
+  #practice, #about, #projects, #contact {
+    padding: 50px 25px;
+    background-color: #ffffffc9;
+    margin: 30px auto;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 900px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  }
+  
+  .section-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #512da8;
+    border-bottom: 2px solid #ba68c8;
+    display: inline-block;
+  }
+  
+  .about-text {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .project-card {
+    background: linear-gradient(to bottom right, #ffe0b2, #ffccbc);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  }
+  
+  .project-title {
+    font-size: 20px;
+    color: #d84315;
+    margin-bottom: 10px;
+  }
+  
+  .project-desc {
+    font-size: 16px;
+  }
+  
+  #enterText,
+  .contact-form input,
+  .contact-form textarea {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  #practice button,
+  .contact-form button {
+    background-color: #7e57c2;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #5e35b1;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(90deg, #512da8, #7b1fa2);
+    color: white;
+    font-size: 14px;
+    margin-top: 40px;
+  }
+  
