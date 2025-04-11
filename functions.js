@@ -46,3 +46,5 @@ let greetWoParamArrow = () => {
 
 let userAge = greetWoParamArrow();
 console.log('The users age is: ' + userAge);
+
+//Comment2

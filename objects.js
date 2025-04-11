@@ -24,3 +24,5 @@ for(let key in bike){
 //console.log(bike);
 
 //console.log(`I own ${bike.manufacturer} ${bike['model']} bike`);
+
+//Comment3
