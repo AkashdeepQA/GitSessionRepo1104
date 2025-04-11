@@ -79,5 +79,3 @@ numArr.sort((a, b) => a - b); // Asc order
 console.log('Arr in Asc Order: ' + numArr);
 numArr.sort((a, b) => b - a); // Desc Order
 console.log('Arr in Desc Order: ' + numArr);
-
-//This comment is added after first git commit
